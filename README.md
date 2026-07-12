@@ -30,3 +30,42 @@ Dengan adanya aplikasi ini, proses pemesanan kamar menjadi lebih cepat, mudah, d
 
 ### Development Environment
 - Laragon
+
+# Fitur dan Kemampuan Sistem
+
+## Fitur Pelanggan
+
+- Registrasi akun pelanggan.
+- Login dan logout menggunakan sistem autentikasi berbasis session.
+- Melihat daftar kamar yang tersedia.
+- Melihat informasi detail kamar, termasuk harga dan deskripsi.
+- Melakukan reservasi kamar dengan menentukan tanggal check-in dan check-out.
+- Melihat riwayat reservasi yang pernah dilakukan.
+- Mengubah data profil pelanggan.
+
+---
+
+## Fitur Admin
+
+- Login admin dengan autentikasi berbasis session.
+- Dashboard yang menampilkan ringkasan data sistem.
+- Mengelola data kamar:
+  - Menambah kamar baru.
+  - Mengubah informasi kamar.
+  - Menghapus data kamar.
+- Mengelola data reservasi pelanggan.
+- Melihat data pelanggan yang telah terdaftar.
+
+---
+
+## Kemampuan Sistem
+
+- Autentikasi pengguna menggunakan PHP Session.
+- Pemisahan hak akses antara Admin dan Pelanggan.
+- Penyimpanan data menggunakan database MySQL.
+- Menampilkan informasi kamar secara dinamis dari database.
+- Mendukung operasi CRUD (Create, Read, Update, Delete) pada data kamar.
+- Menyimpan riwayat reservasi pelanggan.
+- Antarmuka responsif menggunakan Tailwind CSS sehingga dapat diakses melalui desktop maupun perangkat mobile.
+- Struktur kode menggunakan PHP Native sehingga mudah dipahami dan dikembangkan.
+- Validasi dasar pada proses login, registrasi, dan reservasi.
