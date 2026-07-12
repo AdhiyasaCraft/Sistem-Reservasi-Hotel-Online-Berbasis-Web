@@ -148,3 +148,17 @@ Sistem menggunakan empat tabel utama yang saling berelasi untuk mengelola proses
 - Setiap **reservasi** terhubung dengan satu **pelanggan** dan satu **kamar** melalui *foreign key*.
 
 Rincian lengkap struktur tabel dapat dilihat pada berkas **`db_hotel.sql`**.
+
+# Akun Demo
+
+## Administrator
+
+| Username | Password |
+|----------|----------|
+| admin | admin123 |
+
+## Pelanggan Hotel
+
+| Username | Password |
+|----------|----------|
+| Pelanggan | 123 |
