@@ -14,3 +14,19 @@ Hotel Reservation System merupakan aplikasi berbasis web yang dikembangkan sebag
 Sistem menyediakan dua jenis pengguna, yaitu **Admin** dan **Pelanggan**. Admin dapat mengelola data kamar, data pelanggan, serta reservasi yang masuk. Sementara itu, pelanggan dapat melakukan registrasi akun, login, melihat daftar kamar beserta detailnya, melakukan reservasi, melihat riwayat pemesanan, dan mengelola profil mereka.
 
 Dengan adanya aplikasi ini, proses pemesanan kamar menjadi lebih cepat, mudah, dan terorganisir dibandingkan dengan pencatatan secara manual. Selain itu, sistem juga membantu pihak hotel dalam mengelola data reservasi secara efisien dan meminimalkan kesalahan pengelolaan data.
+
+## Teknologi yang Digunakan
+
+### Sisi Klien (Frontend)
+- HTML5
+- Tailwind CSS v3
+- JavaScript
+
+### Sisi Server (Backend)
+- PHP 8.x Native (berbasis session, tanpa menggunakan framework seperti Laravel)
+
+### Penyimpanan Data (Database)
+- MySQL (`db_perhotelan`)
+
+### Development Environment
+- Laragon
