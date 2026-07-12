@@ -1,11 +1,11 @@
 # TUGAS BESAR MATA KULIAH REKAYASA PERANGKAT LUNAK
 ## KELOMPOK 5
 ### NAMA ANGGOTA :
-1. Bunga Indah Lestari 240511170
-2. Kevin Adhiyasa Ilham 240511015
-3. Reza Maulana Firdaus 240511104
-4. Sherly  Patrecia 240511077
-5. ⁠Ahmad ilham 240511095
+1. Bunga Indah Lestari (240511170)
+2. Kevin Adhiyasa Ilham (240511015)
+3. Reza Maulana Firdaus (240511104)
+4. Sherly  Patrecia (240511077)
+5. ⁠Ahmad ilham (240511095)
 
 # PROJEK YANG DIBUAT: SISTEM RESERVASI HOTEL BERBASIS WEBSITE
 ## DESKRIPSI PROJEK
