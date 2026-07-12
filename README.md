@@ -69,3 +69,11 @@ Dengan adanya aplikasi ini, proses pemesanan kamar menjadi lebih cepat, mudah, d
 - Antarmuka responsif menggunakan Tailwind CSS sehingga dapat diakses melalui desktop maupun perangkat mobile.
 - Struktur kode menggunakan PHP Native sehingga mudah dipahami dan dikembangkan.
 - Validasi dasar pada proses login, registrasi, dan reservasi.
+
+## Fitur Autentikasi
+
+- Registrasi akun pelanggan.
+- Login menggunakan username dan password.
+- Manajemen sesi (Session Management) menggunakan PHP.
+- Pembatasan akses berdasarkan peran (Admin dan Pelanggan).
+- Logout untuk mengakhiri sesi pengguna.
