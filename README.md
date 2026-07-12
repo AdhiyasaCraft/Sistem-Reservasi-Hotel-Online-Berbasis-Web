@@ -132,3 +132,19 @@ hotel_final/
 └── README.md                           # Dokumentasi proyek
 ```
 
+# Struktur Basis Data (Database)
+
+Sistem menggunakan empat tabel utama yang saling berelasi untuk mengelola proses reservasi hotel.
+
+- **t_admin** — Menyimpan data akun administrator yang memiliki hak akses untuk mengelola sistem.
+- **t_pelanggan** — Menyimpan informasi akun pelanggan yang dapat melakukan reservasi kamar.
+- **t_kamar** — Menyimpan data kamar hotel, meliputi nama kamar, tipe kamar, harga, status ketersediaan, foto, dan deskripsi.
+- **t_reservasi** — Menyimpan data pemesanan kamar yang dilakukan pelanggan, seperti tanggal check-in, tanggal check-out, jumlah tamu, total harga, dan status reservasi.
+
+### Relasi Antar Tabel
+
+- Satu **pelanggan** dapat memiliki lebih dari satu **reservasi**.
+- Satu **kamar** dapat muncul pada banyak **reservasi** yang berbeda sesuai jadwal pemesanan.
+- Setiap **reservasi** terhubung dengan satu **pelanggan** dan satu **kamar** melalui *foreign key*.
+
+Rincian lengkap struktur tabel dapat dilihat pada berkas **`db_hotel.sql`**.
