@@ -77,3 +77,58 @@ Dengan adanya aplikasi ini, proses pemesanan kamar menjadi lebih cepat, mudah, d
 - Manajemen sesi (Session Management) menggunakan PHP.
 - Pembatasan akses berdasarkan peran (Admin dan Pelanggan).
 - Logout untuk mengakhiri sesi pengguna.
+
+# Struktur Proyek
+
+```text
+hotel_final/
+│
+├── admin/                              # Halaman khusus administrator
+│   ├── dashboard.php                   # Dashboard admin
+│   ├── kamar/                          # Manajemen data kamar
+│   │   ├── index.php
+│   │   ├── tambah.php
+│   │   ├── edit.php
+│   │   └── hapus.php
+│   │
+│   ├── pelanggan/                      # Manajemen data pelanggan
+│   │   └── index.php
+│   │
+│   └── reservasi/                      # Manajemen data reservasi
+│       ├── index.php
+│       └── edit.php
+│
+├── assets/
+│   └── img/                            # Gambar hotel dan kamar
+│       ├── Deluxe Room.png
+│       ├── Family Room.png
+│       ├── hotel.png
+│       ├── Suite Room.png
+│       └── SUPERIOR.png
+│
+├── config/
+│   └── koneksi.php                     # Konfigurasi koneksi database
+│
+├── includes/                           # Komponen yang digunakan berulang
+│   ├── navbar.php
+│   ├── navbar_tentang.php
+│   └── footer.php
+│
+├── pelanggan/                          # Halaman pelanggan
+│   ├── dashboard_pelanggan.php
+│   ├── kamar.php
+│   ├── reservasi.php
+│   ├── riwayat.php
+│   ├── profil.php
+│   └── edit_profil.php
+│
+├── db_hotel.sql                        # File database MySQL
+├── detail.php                          # Detail informasi kamar
+├── index.php                           # Halaman utama
+├── login.php                           # Login pengguna
+├── logout.php                          # Logout pengguna
+├── register.php                        # Registrasi pelanggan
+├── tentang.php                         # Halaman tentang
+└── README.md                           # Dokumentasi proyek
+```
+
