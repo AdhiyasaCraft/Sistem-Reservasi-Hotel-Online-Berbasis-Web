@@ -83,23 +83,23 @@ Dengan adanya aplikasi ini, proses pemesanan kamar menjadi lebih cepat, mudah, d
 ```text
 hotel_final/
 │
-├── admin/                              # Halaman khusus administrator
-│   ├── dashboard.php                   # Dashboard admin
-│   ├── kamar/                          # Manajemen data kamar
+├── admin/                            
+│   ├── dashboard.php              
+│   ├── kamar/                        
 │   │   ├── index.php
 │   │   ├── tambah.php
 │   │   ├── edit.php
 │   │   └── hapus.php
 │   │
-│   ├── pelanggan/                      # Manajemen data pelanggan
+│   ├── pelanggan/                 
 │   │   └── index.php
 │   │
-│   └── reservasi/                      # Manajemen data reservasi
+│   └── reservasi/                   
 │       ├── index.php
 │       └── edit.php
 │
 ├── assets/
-│   └── img/                            # Gambar hotel dan kamar
+│   └── img/                            
 │       ├── Deluxe Room.png
 │       ├── Family Room.png
 │       ├── hotel.png
@@ -107,14 +107,14 @@ hotel_final/
 │       └── SUPERIOR.png
 │
 ├── config/
-│   └── koneksi.php                     # Konfigurasi koneksi database
+│   └── koneksi.php                     
 │
-├── includes/                           # Komponen yang digunakan berulang
+├── includes/                          
 │   ├── navbar.php
 │   ├── navbar_tentang.php
 │   └── footer.php
 │
-├── pelanggan/                          # Halaman pelanggan
+├── pelanggan/                         
 │   ├── dashboard_pelanggan.php
 │   ├── kamar.php
 │   ├── reservasi.php
@@ -122,14 +122,14 @@ hotel_final/
 │   ├── profil.php
 │   └── edit_profil.php
 │
-├── db_hotel.sql                        # File database MySQL
-├── detail.php                          # Detail informasi kamar
-├── index.php                           # Halaman utama
-├── login.php                           # Login pengguna
-├── logout.php                          # Logout pengguna
-├── register.php                        # Registrasi pelanggan
-├── tentang.php                         # Halaman tentang
-└── README.md                           # Dokumentasi proyek
+├── db_hotel.sql                       
+├── detail.php                       
+├── index.php                          
+├── login.php                          
+├── logout.php                        
+├── register.php                       
+├── tentang.php                       
+└── README.md                           
 ```
 
 # Struktur Basis Data (Database)
